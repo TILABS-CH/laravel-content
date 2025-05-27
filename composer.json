@@ -1,0 +1,41 @@
+{
+  "name": "tilabs/laravel-content",
+  "description": "A markdown based headless cms inspired by nuxt/content and Caleb Porzio.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "role": "Developer",
+      "name": "Thomas Iseli",
+      "email": "hey@tilabs.ch",
+      "homepage": "https://tilabs.ch"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Tilabs\\LaravelContent\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "php": "^8.2",
+    "calebporzio/sushi": "^2.5",
+    "illuminate/console": "^12.15",
+    "illuminate/database": "^12.0",
+    "illuminate/support": "^12.0",
+    "league/commonmark": "^2.6"
+  },
+  "config": {
+    "sort-packages": true,
+    "preferred-install": "dist",
+    "optimize-autoloader": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Tilabs\\LaravelContent\\Providers\\ContentServiceProvider"
+      ]
+    }
+  }
+}
