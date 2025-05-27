@@ -1,6 +1,6 @@
 {
   "name": "tilabs/laravel-content",
-  "description": "A markdown based headless cms inspired by nuxt/content and Caleb Porzio.",
+  "description": "A markdown based headless cms inspired by nuxt/content and Sushi Eloquent Driver.",
   "type": "library",
   "license": "MIT",
   "authors": [

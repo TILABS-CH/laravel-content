@@ -26,7 +26,7 @@ composer require tilabs/laravel-content
 ### Publish the configuration
 
 ```bash
-php artisan vendor:publish --tag=laravel-content-config
+php artisan vendor:publish --provider="Tilabs\LaravelContent\Providers\ContentServiceProvider"
 ```
 
 ### Write content
